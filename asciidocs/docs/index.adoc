@@ -1,4 +1,45 @@
-= Index page
-ifndef::imagesdir[:imagesdir: images]
+= Projektantrag
+:author: Arda, Kerim, Fridolin, Nico
+:revnumber: 1.0
+:doctype: article
+:toc:
 
-image::img.png[]
+== Projektname
+EasyKassa
+
+== Projektteam
+* Arda
+* Kerim
+* Fridolin
+* Nico
+
+== Ausgangssituation
+In vielen Supermärkten gibt es Selbstbedienungskassen, bei denen Kund:innen ihre Produkte selbst scannen, bezahlen und den Einkaufsprozess ohne Kassapersonal abschließen können.
+Für Lernzwecke soll ein einfaches Kassensystem entwickelt werden, das die grundlegenden Funktionen einer Selbstbedienungskasse simuliert – jedoch ohne professionelle Hardware wie Barcode-Scanner.
+
+== Zielsetzung
+Ziel des Projekts ist die Entwicklung einer funktionalen Anwendung, in der Benutzer:innen verschiedene Waren auswählen, in den Warenkorb legen und deren Preis automatisch berechnet wird.
+Die Waren sollen in einer Datenbank gespeichert werden und können in der Oberfläche mit Namen, Kategorie, Preis und einem Produktbild ausgewählt werden.
+Am Ende soll ein Rechnungsbetrag berechnet werden.
+
+Das System soll insbesondere:
+* eine Produktliste anzeigen
+* Produkte mit Bild und Preis ausgewählt werden können
+* den Warenkorb verwalten
+* den Gesamtbetrag berechnen
+* eine einfache Oberfläche bieten, die ohne Einschulung bedienbar ist
+
+== Projektumfang
+Das System soll als Desktop- oder Web-Applikation umgesetzt werden.
+Die Datenhaltung erfolgt über eine Datenbank.
+Ein Barcode-Scanner oder EAN-Code-Erfassung wird NICHT umgesetzt.
+
+== Technologien
+* Programmiersprache: Java
+* Datenbank: Relationale Datenbank, jedoch kein Oracle (z. B. MySQL, MariaDB, PostgreSQL oder H2)
+
+== Erwartetes Ergebnis
+Eine lauffähige Anwendung, die ein grundlegendes Kassensystem simuliert und alle wichtigen Kernfunktionen bietet: Produktwahl, Warenkorb, Preisberechnung und übersichtliche Darstellung.
+
+== Nutzen
+Mit EasyKassa entsteht ein leicht verständliches und benutzerfreundliches Kassensystem, das sowohl als Lernprojekt für Softwareentwicklung dient als auch zur Simulation eines realen Einsatzes geeignet ist.
